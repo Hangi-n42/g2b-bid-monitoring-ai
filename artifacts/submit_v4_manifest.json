@@ -1,0 +1,37 @@
+{
+  "zip": "artifacts\\submit_v4.zip",
+  "bytes": 64322,
+  "sha256": "4d3804293a7c47d6d6ff9edb0cdce5206038514b2ce93ab433f14f161104117a",
+  "files": {
+    "script.py": {
+      "bytes": 26493,
+      "sha256": "92a077853395d924e8e54ed7a2cf273faa877156d39562125370dfbaf7c71b98"
+    },
+    "context.py": {
+      "bytes": 13890,
+      "sha256": "8f4ff667ad37a202d51b6c6e4b99ac12faa47192d4701299b4d36b3c4a0882f9"
+    },
+    "model/item_guides.json": {
+      "bytes": 39626,
+      "sha256": "3d59855ad9efa1f3449eb58ffa7fe4d728fff378be645a639eac64bb44d326c5"
+    },
+    "model/examples.json": {
+      "bytes": 163931,
+      "sha256": "33ff63da14cf01a0e663712a9a05acc834e6cad5a688f93488f3e23f5984f101"
+    },
+    "model/reviewed_examples.json": {
+      "bytes": 51379,
+      "sha256": "28cda32c1a61dce21192b254d9680eb963d59557d92cf755d4588e90f47645d9"
+    },
+    "model/provenance.json": {
+      "bytes": 5767,
+      "sha256": "b3278af7a247d9456dcc4156ebb14de826e5410e049b56b92dc2dc76c2b1648f"
+    }
+  },
+  "actual_fixed_model_execution_verified": false,
+  "submitted": true,
+  "submission_id": "90458",
+  "submitted_at_page": "2026-09-15 21:44:51",
+  "status": "queued",
+  "receipt": "artifacts/submission_receipt_v4.json"
+}

@@ -1,0 +1,23 @@
+{
+  "version": "v4",
+  "submission_id": "90458",
+  "competition_id": "236754",
+  "url": "https://dacon.io/competitions/official/236754/mysubmission",
+  "file": "artifacts/submit_v4.zip",
+  "bytes": 64322,
+  "sha256": "4d3804293a7c47d6d6ff9edb0cdce5206038514b2ce93ab433f14f161104117a",
+  "submitted": true,
+  "submitted_at_page": "2026-09-15 21:44:51",
+  "status": "대기 중",
+  "queue_count_at_verification": 4,
+  "score": null,
+  "verification": "Submission-complete dialog followed by row 90458 showing submit_v4.zip, matching memo SHA256 and queued status.",
+  "actual_fixed_model_execution_verified": false,
+  "local_tests_passed": 44,
+  "packaged_mock_rows_validated": 200,
+  "fixed_tokenizer_requests": 600,
+  "retained_reference_evidence": "54/54",
+  "retained_reviewed_anchors": "12/12",
+  "human_review_performed": false,
+  "review": "Primary agent and three specialist AI agents. No claim of human legal review or measured F1 improvement."
+}

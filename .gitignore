@@ -216,3 +216,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Competition sources and presentation/baseline material
+/open/
+*.ipynb
+*Baseline*
+*baseline*/
+*설명회*/
+*설명회*.md
+/대회_통합_정보.md
+/대회_설명_정보_규칙.md
+
+# Local runtime, generated data, and submission archives
+/.tools/
+/.publish/
+/analysis/
+/submission/model/*.json
+/artifacts/*
+!/artifacts/submit_v4_manifest.json
+!/artifacts/submission_receipt_v4.json
+*.zip
+*.jsonl
+*.jsonl.gz
+*.safetensors
+*.bin
+.env
+.env.*
+!.env.example
