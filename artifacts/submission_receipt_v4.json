@@ -8,9 +8,9 @@
   "sha256": "4d3804293a7c47d6d6ff9edb0cdce5206038514b2ce93ab433f14f161104117a",
   "submitted": true,
   "submitted_at_page": "2026-09-15 21:44:51",
-  "status": "대기 중",
+  "status": "scored",
   "queue_count_at_verification": 4,
-  "score": null,
+  "score": 0.3104368405,
   "verification": "Submission-complete dialog followed by row 90458 showing submit_v4.zip, matching memo SHA256 and queued status.",
   "actual_fixed_model_execution_verified": false,
   "local_tests_passed": 44,
@@ -19,5 +19,10 @@
   "retained_reference_evidence": "54/54",
   "retained_reviewed_anchors": "12/12",
   "human_review_performed": false,
-  "review": "Primary agent and three specialist AI agents. No claim of human legal review or measured F1 improvement."
+  "review": "Primary agent and three specialist AI agents. No claim of human legal review or measured F1 improvement.",
+  "status_at_submission_verification": "대기 중",
+  "elapsed_seconds": 3102,
+  "result_observed_on": "2026-09-18",
+  "result_source": "User-provided DACON screenshot in this conversation; submission 90458, submit_v4.zip, matching SHA256 memo. No new authenticated browser verification.",
+  "server_run_completed": true
 }

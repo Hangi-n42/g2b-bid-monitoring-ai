@@ -1,11 +1,11 @@
 {
-  "zip": "artifacts\\submit_v4.zip",
-  "bytes": 64322,
-  "sha256": "4d3804293a7c47d6d6ff9edb0cdce5206038514b2ce93ab433f14f161104117a",
+  "zip": "artifacts\\submit_v5.zip",
+  "bytes": 66218,
+  "sha256": "dc0c099f23d8bc8516b8d60fca916bdc3c0e32e232c862250cf0b4a09938a1da",
   "files": {
     "script.py": {
-      "bytes": 26493,
-      "sha256": "92a077853395d924e8e54ed7a2cf273faa877156d39562125370dfbaf7c71b98"
+      "bytes": 32328,
+      "sha256": "b862b8c8886b0e5e8629338ff9e514c4f024bcafcc632471e2a7b78c84c6f1c3"
     },
     "context.py": {
       "bytes": 13890,
@@ -30,11 +30,20 @@
   },
   "actual_fixed_model_execution_verified": false,
   "submitted": true,
-  "submission_id": "90458",
-  "submitted_at_page": "2026-09-15 21:44:51",
-  "status": "scored",
-  "receipt": "artifacts/submission_receipt_v4.json",
-  "score": 0.3104368405,
-  "elapsed_seconds": 3102,
-  "result_source": "User-provided screenshot, observed 2026-09-18"
+  "validation": {
+    "tests_passed": 51,
+    "mock_rows": 200,
+    "package_mock_rows": 200,
+    "fixed_tokenizer_requests": 600,
+    "reference_evidence_retained": 54,
+    "reviewed_anchors_retained": 12,
+    "v4_source_and_examples_identical": true,
+    "actual_dev_f1": null,
+    "actual_gpu_runtime_seconds": null,
+    "xgrammar_runtime_verified": false
+  },
+  "experiment": "v5-F: B-group facts-first structured output; original v4 sources/examples preserved",
+  "submission_id": 92665,
+  "submitted_at_kst": "2026-09-18 22:53:15",
+  "status": "grading"
 }

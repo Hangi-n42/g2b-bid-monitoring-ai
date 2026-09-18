@@ -1,0 +1,12 @@
+{
+  "submission_id": 92665,
+  "filename": "submit_v5.zip",
+  "submitted_at_kst": "2026-09-18 22:53:15",
+  "status": "grading",
+  "status_text": "채점 중",
+  "score": null,
+  "sha256": "dc0c099f23d8bc8516b8d60fca916bdc3c0e32e232c862250cf0b4a09938a1da",
+  "url": "https://dacon.io/competitions/official/236754/mysubmission",
+  "verification": "Authenticated browser: submission complete dialog and new row with ID, timestamp, filename, memo hash and grading status",
+  "actual_local_fixed_model_inference": false
+}

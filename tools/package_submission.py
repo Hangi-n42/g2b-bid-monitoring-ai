@@ -12,6 +12,7 @@ FILES=['script.py','context.py','model/item_guides.json','model/examples.json',
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--name',default='submit_v4.zip')
+    parser.add_argument('--source',default='submission',choices=['submission','submission_v5'])
     args=parser.parse_args()
     if Path(args.name).name!=args.name or not args.name.endswith('.zip'):
         parser.error('name must be a ZIP filename without directories')
@@ -21,7 +22,7 @@ def main():
     manifest={}
     with zipfile.ZipFile(zip_path,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:
         for rel in FILES:
-            p=ROOT/'submission'/rel
+            p=ROOT/args.source/rel
             data=p.read_bytes()
             info=zipfile.ZipInfo(rel,date_time=(2026,9,10,0,0,0))
             info.compress_type=zipfile.ZIP_DEFLATED
